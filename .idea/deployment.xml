@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" serverName="spicedpages.ru">
+    <serverData>
+      <paths name="spicedpages.ru">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="ojahuri" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>
