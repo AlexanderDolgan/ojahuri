@@ -13,19 +13,27 @@
 <div>
 
 	</div>
-	<section>
-		<div class="container">
-			<div class="row">
-				<div class="col-md-offset-2 col-md-8" >
 
+<!-----	категории меню ------>
+		<div class="container">
+			<div class="row ">
+				<ul class="nav navbar-nav navbar-default">
 					<?php
 					$args = array(
 						'child_of' => get_top_ancestor_id(),
 						'title_li' => ''
 					);
 					?>
+					<?php wp_list_pages( $args ) ?>
+				</ul>
+			</div>
 
-					<?php wp_list_pages($args)?>
+
+<!--------page content-------->
+	<section>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-offset-2 col-md-8" >
 
 					<?php if ( have_posts() ) :
 						while ( have_posts() ) : the_post();
@@ -33,15 +41,12 @@
 					endwhile;
 					endif; ?>
 
-
-
 				</div>
 			</div>
 		</div>
 	</section>
+		</div>
 <!--------social links-------->
-
-
 <aside class="bg-dark">
 	<div class="container text-center">
 		<div class="call-to-action">

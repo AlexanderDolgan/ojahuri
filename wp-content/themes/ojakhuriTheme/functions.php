@@ -38,7 +38,7 @@ add_action('wp_enqueue_scripts', 'theme_js');
 
 add_theme_support( 'menus' );
 
-//Get top ancestor
+//Get top ancestor for menu navigation
 
 function get_top_ancestor_id() {
 
