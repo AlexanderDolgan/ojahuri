@@ -16,12 +16,7 @@
 
 <div class="yandex-map">
 	<!--	Яндекс карта без использования API-->
-	<?php
-	$id      = 75;// post-yandex map
-	$post    = get_post( $id );
-	$content = $post->post_content;
-	echo $content;
-	?>
+	<?php show_the_content_by_id( 75 ); ?>
 </div>
 
 <!--	контактная форма - плагин ContactForm 7-->

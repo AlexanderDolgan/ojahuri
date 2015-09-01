@@ -3,11 +3,9 @@
 <?php get_template_part('navigation'); ?>
 
 
-<header class="header-vacancies">
+<header class="header-menu">
 	<div class="header-content">
-		<h1>ВАКАНСИИ</h1>
-		<hr>
-	</div>
+		<?php show_the_content_by_id_with_title( 895 )?>
 	</div>
 </header>
 <div>
@@ -27,7 +25,7 @@
 
 				<?php wp_list_pages($args)?>
 
-<!--				--><?php //echo do_shortcode( '[erm_menu id=217]' ); ?>
+
 
 			</div>
 		</div>

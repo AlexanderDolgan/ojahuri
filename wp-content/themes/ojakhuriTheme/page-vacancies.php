@@ -1,12 +1,10 @@
 <? get_header(); ?> <!--include header.php-->
 
-<?php get_template_part('navigation'); ?>
+<?php get_template_part( 'navigation' ); ?>
 
 <header class="header-vacancies">
 	<div class="header-content">
-			<h1>ВАКАНСИИ</h1>
-			<hr>
-		</div>
+		<?php show_the_content_by_id_with_title( 890 ); ?>
 	</div>
 </header>
 
@@ -15,15 +13,10 @@
 <section>
 	<div class="container">
 		<div class="row">
-			<div class="col-md-offset-2 col-md-8 text-center" >
+			<div class="col-md-offset-2 col-md-8 text-center">
 				<i class="fa fa-4x fa-users wow bounceIn text-primary"></i>
 
-				<?php
-					$id = 37;// post-vacancies
-					$post = get_post($id);
-					$content = $post->post_content;
-					echo $content;
-				?>
+				<?php show_the_content_by_id( 37 ); ?>
 
 			</div>
 		</div>
