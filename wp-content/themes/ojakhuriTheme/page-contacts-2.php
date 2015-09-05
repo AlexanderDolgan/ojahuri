@@ -6,7 +6,7 @@
 <header class="header-contacts contacts-page-header">
 	<div class="header-content">
 		<div class="header-content-inner">
-
+			<?php show_the_content_by_id_with_title( 925 ); ?>
 		</div>
 	</div>
 </header>
@@ -16,7 +16,12 @@
 
 <div class="yandex-map">
 	<!--	Яндекс карта без использования API-->
-	<?php show_the_content_by_id( 75 ); ?>
+	<?php
+	$id      = 75;// post-yandex map
+	$post    = get_post( $id );
+	$content = $post->post_content;
+	echo $content;
+	?>
 </div>
 
 <!--	контактная форма - плагин ContactForm 7-->

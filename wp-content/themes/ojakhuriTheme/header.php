@@ -25,4 +25,4 @@
 
 </head>
 
-<body <?php body_class(); ?>>
+<body <?php body_class(); ?> >

@@ -25,7 +25,7 @@
     });
 
     // Fit Text Plugin for Main Header
-    $("h1").fitText(
+    $(".header-h1").fitText(
         1.2, {
             minFontSize: '35px',
             maxFontSize: '65px'
@@ -41,29 +41,6 @@
 
     // Initialize WOW.js Scrolling Animations
     new WOW().init();
-
-
-    //ymaps.ready(init);
-    //
-    //function init(){
-    //
-    //    var myMap;
-    //
-    //    myMap = new ymaps.Map("ojakhuriMap", {
-    //        center: [55.7652, 37.63836],
-    //        zoom: 17,
-    //        controls: []
-    //    });
-    //
-    //    var myPlacemark = new ymaps.Placemark([55.7649, 37.63836] , {},
-    //        { iconLayout: 'default#image',
-    //            iconImageHref: 'http://blog.karmanov.ws/files/APIYaMaps1/min_marker.png',
-    //            iconImageSize: [40, 51],
-    //            iconImageOffset: [-20, -47] });
-    //
-    //    myMap.geoObjects.add(myPlacemark);
-    //
-    //}
 
 
 
