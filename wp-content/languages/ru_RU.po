@@ -96,11 +96,11 @@ msgstr "Настройки меню"
 msgid "Registration confirmation will be e-mailed to you."
 msgstr "Подтверждение регистрации будет отправлено на ваш e-mail."
 
-#: wp-includes/script-loader.php:378
+#: wp-includes/script-loader.php:379
 msgid "Hide"
 msgstr "Скрыть"
 
-#: wp-includes/script-loader.php:377
+#: wp-includes/script-loader.php:378
 msgid "Show"
 msgstr "Показать"
 
