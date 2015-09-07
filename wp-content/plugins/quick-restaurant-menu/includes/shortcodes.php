@@ -109,7 +109,7 @@ function erm_shortcode_menu( $atts, $content = null ) {
 
     // Clean left column with thumbnails if don't exists
     if ( !$has_some_thumbnails ) {
-        $html = '<style>.erm_product .image-popup, .erm_product .erm_product_image { display: none !important; } </style>' . $html ;
+        $html = '<style>.erm_product .image-popup, .erm_product .erm_product_image { display: block !important; } </style>' . $html ;
     }
 
     // No need of this

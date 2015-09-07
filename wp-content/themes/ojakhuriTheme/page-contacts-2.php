@@ -5,8 +5,7 @@
 
 <header class="main-header main-header-contacts">
     <div class="header-content">
-        <a href="<?php echo esc_url(home_url('/')); ?>" class="header-logo"><img
-                src="<?php bloginfo('template_directory') ?>/images/logo.png" alt="logo ojakhuri"/></a>
+
         <h1>КОНТАКТЫ</h1>
         <hr>
         <h3>Добро пожаловать</h3>
@@ -37,8 +36,8 @@
         </div>
     </div>
 </section>
-<!--------social links-------->
 
+<!--------social links-------->
 <aside class="contacts-page-social">
     <div class="container text-center">
         <div class="call-to-action">

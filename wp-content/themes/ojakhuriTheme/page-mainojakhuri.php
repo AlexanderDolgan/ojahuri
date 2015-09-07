@@ -6,7 +6,8 @@
 
 <header class="main-header">
     <div class="container-fluid">
-        <video autoplay loop muted>
+        <div class="row">
+	      <video autoplay loop muted poster="<?php bloginfo('template_directory')?>/images/header.jpg">
             <source src="<?php bloginfo('template_directory') ?>/vid/header_vid.mp4">
         </video>
         <div class="header-content">
@@ -21,6 +22,7 @@
                     переводе означает “как дома”.</p>
                 <!--			<a href="#about" class="btn btn-primary btn-xl page-scroll">Узнать больше</a>-->
             </div>
+        </div>
         </div>
     </div>
 </header>
@@ -194,7 +196,7 @@
 <!--------social links-------->
 <aside class="color-section">
     <div class="container">
-        <div class="section-content-container col-md-8 col-md-offset-2">
+        <div class="section-content-container col-md-8 col-md-offset-2 wow flipInX center">
             <div class="call-to-action">
                 <h1>Подпишитесь на наши новости</h1>
                 <hr/>
@@ -212,7 +214,7 @@
     <div class="container">
         <h1>Новые блюда</h1>
         <div class="courses-block">
-            <div class="courses-box">
+            <div class="courses-box wow bounceInUp center">
                 <img src="<?php bloginfo('template_directory'); ?>/images/2.jpg" alt="photo course">
 
                 <div class="courses-info">
@@ -225,7 +227,7 @@
                         пряных кавказских специй. </p>
                 </div>
             </div>
-            <div class="courses-box">
+            <div class="courses-box wow bounceInUp center" data-wow-delay=".3s">
                 <img src="<?php bloginfo('template_directory'); ?>/images/3.jpg" alt="photo course">
 
                 <div class="courses-info">
@@ -238,7 +240,7 @@
                         пряных кавказских специй.</p>
                 </div>
             </div>
-            <div class="courses-box">
+            <div class="courses-box wow bounceInUp center"  data-wow-delay=".6s">
                 <img src="<?php bloginfo('template_directory'); ?>/images/3.jpg" alt="photo course">
 
                 <div class="courses-info">
