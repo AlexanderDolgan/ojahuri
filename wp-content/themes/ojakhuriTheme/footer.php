@@ -1,25 +1,30 @@
 <!----------contacts---------->
 
 
-<section class="color-section footer">
+<section class="color-section footer animatedParent" data-sequence="500">
+
 	<div class="container">
-		<div class="row">
-			<div class="col-lg-8 col-lg-offset-2">
-				<h1>Нас легко найти</h1>
-				<hr class="light"/>
-				<p>Ждем вас в семейном ресторане «Оджахури» <br/>по адресу: г. Химки, ул. Молодежная д.6 Режим работы: с 12:00 до 00:00</p>
-			</div>
-			<div class="col-lg-4 col-lg-offset-2 col-md-4 col-md-offset-2">
-				<a href="tel:+74957931477"><i class="fa fa-phone fa-2x wow bounceIn"></i></a><br/>
+		<div class="section-content-container">
+			<div class="row">
+				<div class="col-lg-8 col-lg-offset-2">
+					<h1>Нас легко найти</h1>
+					<hr class="light"/>
+					<p>Ждем вас в семейном ресторане «Оджахури» <br/>по адресу: г. Химки, ул. Молодежная д.6 Режим работы: с 12:00
+						до 00:00</p>
+				</div>
+				<div class="col-lg-4 col-lg-offset-2 col-md-4 col-md-offset-2">
+					<a href="tel:+74957931477"><i class="fa fa-phone fa-2x animated bounceIn" data-id="1"></i></a><br/>
 
-				<a href="tel:+74957931477">+7 (495) 793-14-77</a>
+					<a href="tel:+74957931477">+7 (495) 793-14-77</a>
 
-			</div>
+				</div>
 
-			<div class="col-lg-4 col-md-4">
-				<a href="mailto:ojakhuri.khimki@gmail.com"><i class="fa fa-envelope-o fa-2x wow bounceIn" data-wow-delay=".1s"></i></a> <br/>
+				<div class="col-lg-4 col-md-4">
+					<a href="mailto:ojakhuri.khimki@gmail.com"><i class="fa fa-envelope-o fa-2x animated bounceIn"
+					                                              data-id="2"></i></a> <br/>
 
-				<a href="mailto:ojakhuri.khimki@gmail.com">pojakhuri.khimki@gmail.com</a>
+					<a href="mailto:ojakhuri.khimki@gmail.com">pojakhuri.khimki@gmail.com</a>
+				</div>
 			</div>
 		</div>
 	</div>

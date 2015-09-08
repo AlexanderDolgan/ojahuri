@@ -5,10 +5,10 @@ function theme_styles() {
 	wp_enqueue_style( 'bootstrap_css', get_template_directory_uri() . '/stylesheets/bootstrap.min.css' );
 	/* Custom Core CSS -->*/
 	wp_enqueue_style( 'main_css', get_template_directory_uri() . '/stylesheets/screen.css' );
-	/* Plugin CSS -->*/
-	wp_enqueue_style( 'animations', get_template_directory_uri() . '/font-awesome/css/animations.css' );
 	/* font awesome CSS -->*/
 	wp_enqueue_style( 'font_awesome', get_template_directory_uri() . '/font-awesome/css/font-awesome.css' );
+	/* Plugin CSS -->*/
+	wp_enqueue_style( 'animations', get_template_directory_uri() . '/stylesheets/animations.css' );
 
 }
 

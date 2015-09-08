@@ -1,123 +1,56 @@
 <? get_header(); ?> <!--include header.php-->
 
-<?php get_template_part('navigation'); ?>
+<?php get_template_part( 'navigation' ); ?>
 
-<!--------photo gallery------->
+<header class="main-header main-header-gallery">
+	<div class="header-content">
 
-<section class="no-padding" id="portfolio">
-	<div class="container-fluid">
-		<div class="row no-gutter">
-			<div class="col-lg-4 col-sm-6">
-				<a href="#" class="portfolio-box">
-					<img src="<?php bloginfo('template_directory'); ?>/images/1.jpg" class="img-responsive" alt="">
+		<h1>ГАЛЕРЕЯ</h1>
+		<hr>
+		<h3>55 способов приятно провести время</h3>
+	</div>
 
-					<div class="portfolio-box-caption">
-						<div class="portfolio-box-caption-content">
-							<div class="project-category text-faded">
-								Категория
-							</div>
-							<div class="project-name">
-								название
-							</div>
-						</div>
+</header>
+
+<section class="gallery-section animatedParent">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-offset-1 col-md-10">
+					<h3>ИНТЕРЬЕР</h3>
+					<hr/>
+					<div>
+						<?php if ( have_posts() ) :
+							while ( have_posts() ) : the_post();
+								the_content();
+							endwhile;
+						endif; ?>
 					</div>
-				</a>
+				</div>
 			</div>
-			<div class="col-lg-4 col-sm-6">
-				<a href="#" class="portfolio-box">
-					<img src="<?php bloginfo('template_directory'); ?>/images/2.jpg" class="img-responsive" alt="">
-
-					<div class="portfolio-box-caption">
-						<div class="portfolio-box-caption-content">
-							<div class="project-category text-faded">
-								Категория
-							</div>
-							<div class="project-name">
-								название
-							</div>
-						</div>
+			<div class="row">
+				<div class="col-md-offset-1 col-md-10">
+					<h3>НАШЕ МЕНЮ</h3>
+					<hr/>
+					<div>
+						<?php if ( have_posts() ) :
+							while ( have_posts() ) : the_post();
+								the_content();
+							endwhile;
+						endif; ?>
 					</div>
-				</a>
-			</div>
-			<div class="col-lg-4 col-sm-6">
-				<a href="#" class="portfolio-box">
-					<img src="<?php bloginfo('template_directory'); ?>/images/3.jpg" class="img-responsive" alt="">
-
-					<div class="portfolio-box-caption">
-						<div class="portfolio-box-caption-content">
-							<div class="project-category text-faded">
-								Категория
-							</div>
-							<div class="project-name">
-								нащвание
-							</div>
-						</div>
-					</div>
-				</a>
-			</div>
-			<div class="col-lg-4 col-sm-6">
-				<a href="#" class="portfolio-box">
-					<img src="<?php bloginfo('template_directory'); ?>/images/4.jpg" class="img-responsive" alt="">
-
-					<div class="portfolio-box-caption">
-						<div class="portfolio-box-caption-content">
-							<div class="project-category text-faded">
-								Категория
-							</div>
-							<div class="project-name">
-								название
-							</div>
-						</div>
-					</div>
-				</a>
-			</div>
-			<div class="col-lg-4 col-sm-6">
-				<a href="#" class="portfolio-box">
-					<img src="<?php bloginfo('template_directory'); ?>/images/5.jpg" class="img-responsive" alt="">
-
-					<div class="portfolio-box-caption">
-						<div class="portfolio-box-caption-content">
-							<div class="project-category text-faded">
-								Категория
-							</div>
-							<div class="project-name">
-								название
-							</div>
-						</div>
-					</div>
-				</a>
-			</div>
-			<div class="col-lg-4 col-sm-6">
-				<a href="#" class="portfolio-box">
-					<img src="<?php bloginfo('template_directory'); ?>/images/6.jpg" class="img-responsive" alt="">
-
-					<div class="portfolio-box-caption">
-						<div class="portfolio-box-caption-content">
-							<div class="project-category text-faded">
-								категория
-							</div>
-							<div class="project-name">
-								название
-							</div>
-						</div>
-					</div>
-				</a>
+				</div>
 			</div>
 		</div>
-	</div>
+	<style>
+		#bwg_container1_0 #bwg_container2_0 .bwg_title_spun2_0, #bwg_container1_1 #bwg_container2_1 .bwg_title_spun2_1 {
+			font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+			color: #FFF;
+			font-size: 2rem;
+			font-weight: 500;
+		}
+
+	</style>
 </section>
 
-<!--------social links-------->
-
-<aside class="bg-dark">
-	<div class="container text-center">
-		<div class="call-to-action">
-			<h2>Подпишитесь на наши новости!</h2>
-			<a href="#" class="btn btn-default btn-xl wow tada">Facebook</a>
-			<a href="#" class="btn btn-default btn-xl wow tada">Instagram</a>
-			<a href="#" class="btn btn-default btn-xl wow tada">Vkontakte</a>
-		</div>
-	</div>
-</aside>
-
 <? get_footer(); ?> <!-- include footer.php-->
+<?php get_template_part( 'social-links' ) ?>

@@ -100,14 +100,15 @@ class BWGViewEditThumb {
 
     if (isset($_GET['image_url'])) {
       $image_data = new stdClass();
-      $image_data->image_url = (isset($_GET['image_url']) ? esc_html($_GET['image_url']) : '');
-      $image_data->thumb_url = (isset($_GET['thumb_url']) ? esc_html($_GET['thumb_url']) : '');
+      $image_data->image_url = (isset($_GET['image_url']) ? esc_html(stripcslashes($_GET['image_url'])) : '');
+      $image_data->thumb_url = (isset($_GET['thumb_url']) ? esc_html(stripcslashes($_GET['thumb_url'])) : '');
       $filename = htmlspecialchars_decode(ABSPATH . $WD_BWG_UPLOAD_DIR . $image_data->image_url, ENT_COMPAT | ENT_QUOTES);
       $thumb_filename = htmlspecialchars_decode(ABSPATH . $WD_BWG_UPLOAD_DIR . $image_data->thumb_url, ENT_COMPAT | ENT_QUOTES);
       $form_action = add_query_arg(array('action' => 'editThumb', 'type' => 'crop', 'image_id' => $image_id, 'image_url' => $image_data->image_url, 'thumb_url' => $image_data->thumb_url, 'width' => '800', 'height' => '500', 'TB_iframe' => '1'), admin_url('admin-ajax.php'));
     }
     else {
       $image_data = $this->model->get_image_data($image_id);
+      $image_data->image_url = stripslashes($image_data->image_url);
       $filename = htmlspecialchars_decode(ABSPATH . $WD_BWG_UPLOAD_DIR . $image_data->image_url, ENT_COMPAT | ENT_QUOTES);
       $thumb_filename = htmlspecialchars_decode(ABSPATH . $WD_BWG_UPLOAD_DIR . $image_data->thumb_url, ENT_COMPAT | ENT_QUOTES);
       $form_action = add_query_arg(array('action' => 'editThumb', 'type' => 'crop', 'image_id' => $image_id, 'width' => '800', 'height' => '500', 'TB_iframe' => '1'), admin_url('admin-ajax.php'));
@@ -392,14 +393,15 @@ class BWGViewEditThumb {
 
     if (isset($_GET['image_url'])) {
       $image_data = new stdClass();
-      $image_data->image_url = (isset($_GET['image_url']) ? esc_html($_GET['image_url']) : '');
-      $image_data->thumb_url = (isset($_GET['thumb_url']) ? esc_html($_GET['thumb_url']) : '');
+      $image_data->image_url = (isset($_GET['image_url']) ? esc_html(stripcslashes($_GET['image_url'])) : '');
+      $image_data->thumb_url = (isset($_GET['thumb_url']) ? esc_html(stripcslashes($_GET['thumb_url'])) : '');
       $filename = htmlspecialchars_decode(ABSPATH . $WD_BWG_UPLOAD_DIR . $image_data->image_url, ENT_COMPAT | ENT_QUOTES);
       $thumb_filename = htmlspecialchars_decode(ABSPATH . $WD_BWG_UPLOAD_DIR . $image_data->thumb_url, ENT_COMPAT | ENT_QUOTES);
       $form_action = add_query_arg(array('action' => 'editThumb', 'type' => 'rotate', 'image_id' => $image_id, 'image_url' => $image_data->image_url, 'thumb_url' => $image_data->thumb_url, 'width' => '650', 'height' => '500', 'TB_iframe' => '1'), admin_url('admin-ajax.php'));
     }
     else {
       $image_data = $this->model->get_image_data($image_id);
+      $image_data->image_url = stripcslashes($image_data->image_url);      
       $filename = htmlspecialchars_decode(ABSPATH . $WD_BWG_UPLOAD_DIR . $image_data->image_url, ENT_COMPAT | ENT_QUOTES);
       $thumb_filename = htmlspecialchars_decode(ABSPATH . $WD_BWG_UPLOAD_DIR . $image_data->thumb_url, ENT_COMPAT | ENT_QUOTES);
       $form_action = add_query_arg(array('action' => 'editThumb', 'type' => 'rotate', 'image_id' => $image_id, 'width' => '650', 'height' => '500', 'TB_iframe' => '1'), admin_url('admin-ajax.php'));
@@ -843,8 +845,16 @@ class BWGViewEditThumb {
         document.getElementById("edit_type").value = type;
         document.getElementById(form_id).submit();
       }
-      var image_src = window.parent.document.getElementById("image_thumb_<?php echo $image_id; ?>").src;
-      window.parent.document.getElementById("image_thumb_<?php echo $image_id; ?>").src = image_src + "?date=<?php echo date('Y-m-y H:i:s'); ?>";
+
+	  if (window.parent.document.getElementById("image_thumb_pr_<?php echo $image_id; ?>") != null){
+        var image_src = window.parent.document.getElementById("image_thumb_pr_<?php echo $image_id; ?>").src;
+		    window.parent.document.getElementById("image_thumb_pr_<?php echo $image_id; ?>").src = image_src + "?date=<?php echo date('Y-m-y H:i:s'); ?>";
+	  }	
+	  else {
+        var image_src = window.parent.document.getElementById("image_thumb_<?php echo $image_id; ?>").src;	 
+        window.parent.document.getElementById("image_thumb_<?php echo $image_id; ?>").src = image_src + "?date=<?php echo date('Y-m-y H:i:s'); ?>";		
+	  }
+
       jQuery(document).ready(function() {
         jQuery(".bwg_opt_cont").click(function(){
           if (jQuery('#brightness_contrast').height() == 0)

@@ -6,12 +6,12 @@
 $base-font-family: 'Helvetica Neue', Arial, sans-serif;
 $header-font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
 $base-color: #AD9D88;
-$text-color: #7e7e7e;
+$text-color: #474747;
 
 html, body {
   width: 100%;
   height: 100%;
-  font-size: 15px;
+  font-size: 14px;
 }
 
 body {
@@ -89,8 +89,14 @@ h1, h2, h3, h4 {
   &-menu {
     background-image: url("../images/menu2.jpg");
   }
+  &-theme {
+    background-image: url("../images/menu2.jpg");
+  }
   &-contacts {
     background-image: url("../images/contact_header2.jpg");
+  }
+  &-gallery {
+    background-image: url("../images/interior5.jpg");
   }
   video {
     position: absolute;
@@ -127,10 +133,11 @@ h1, h2, h3, h4 {
   }
 }
 
-.main-header-contacts, .main-header-menu, .main-header-vacancies {
+.main-header-contacts, .main-header-menu, .main-header-theme, .main-header-vacancies, .main-header-gallery {
   .header-content {
     h1 {
       font-size: 3.5rem;
+      text-align: center;
     }
     h3 {
       font-size: 1rem;
@@ -141,7 +148,7 @@ h1, h2, h3, h4 {
 
 @media(min-width: 768px) {
   .main-header {
-    min-height: 100%;
+    height: 100%;
     overflow: hidden;
     .header-content {
       position: absolute;
@@ -160,16 +167,20 @@ h1, h2, h3, h4 {
       }
     }
   }
+  .main-header-theme {
+    height: 30%;
+  }
 }
 
 /*Sections*/
 .color-section {
   position: relative;
   text-align: center;
-  color: $base-color;
-  padding: 90px 30px;
+  color: $text-color;
+  padding: 50px 30px;
   background-color: $base-color;
   z-index: 999;
+  box-shadow: 1px 1px 15px rgba(0,0,0,.5);
   .section-content-container {
     background-color: #FFF;
     padding: 40px;
@@ -239,7 +250,7 @@ h1, h2, h3, h4 {
 
 /*courses*/
 .new-courses {
-  color: $text-color;
+  color: $base-color;
   padding: 110px 30px;
   background-image: url("../images/menu3.jpg");
   @include background-size(cover);
@@ -247,51 +258,160 @@ h1, h2, h3, h4 {
     color: #FFF;
     font-size: 2rem;
   }
-  hr {
-
-  }
   .courses-block {
     margin-top: 30px;
-    .courses-box {
-      margin-bottom: 20px;
-      padding: 20px;
-      max-width: 700px;
-      min-height: 150px;
-      width: 50%;
-      background-color: rgba(0, 0, 0, .85);
-      border-radius: 3px;
-      color: $base-color;
-      img {
-        position: absolute;
-        float: left;
-        width: 30%;
-        max-width: 200px;
-      }
-      h3 {
-        font-size: 1.2rem;
-        font-weight: 500;
-      }
-      .courses-info {
-        margin-left: 220px;
-        p {
-          display: block;
-          margin-top: 10px;
-        }
-        .course-weigth {
-          font-size: .8rem;
-          font-style: italic;
-        }
-        .course-price {
-          padding-left: 20px;
-          font-style: normal;
-        }
-        .course-description {
-          display: inline;
-          font-size: .9rem;
-        }
-      }
-    }
+    max-width: 400px;
   }
+}
+
+/*---------------*/
+/***** Sarah *****/
+/*---------------*/
+.grid {
+  position: relative;
+  margin: 0 auto;
+  max-width: 1000px;
+  list-style: none;
+  text-align: center;
+}
+
+/* Common style */
+.grid figure {
+  border: 5px solid $base-color;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, .4);
+  position: relative;
+  float: left;
+  overflow: hidden;
+  margin: 10px 1%;
+  width: 100%;
+  max-width: 450px;
+  background: $base-color;
+  text-align: center;
+}
+
+.grid figure img {
+  position: relative;
+  display: block;
+  min-height: 100%;
+  max-width: 100%;
+  opacity: 0.8;
+}
+
+.grid figure figcaption {
+  padding: 2em;
+  color: #fff;
+  font-size: 1.25rem;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.grid figure figcaption::before,
+.grid figure figcaption::after {
+  pointer-events: none;
+}
+
+.grid figure figcaption,
+.grid figure figcaption > a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* Anchor will cover the whole item by default */
+/* For some effects it will show as a button */
+.grid figure figcaption > a {
+  z-index: 1000;
+  text-indent: 200%;
+  white-space: nowrap;
+  font-size: 0;
+  opacity: 0;
+}
+
+.grid figure h2 {
+  word-spacing: -0.15em;
+  font-weight: 700;
+}
+
+.grid figure h2 span {
+  font-weight: 800;
+}
+
+.grid figure h2,
+.grid figure p {
+  margin: 0;
+}
+
+.grid figure p {
+  letter-spacing: 1px;
+  font-size: 80%;
+}
+
+figure.effect-sarah {
+  background: $base-color;
+}
+
+figure.effect-sarah img {
+  max-width: none;
+  width: -webkit-calc(100% + 20px);
+  width: calc(100% + 20px);
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: translate3d(-10px, 0, 0);
+  transform: translate3d(-10px, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+figure.effect-sarah:hover img {
+  opacity: 0.3;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+
+figure.effect-sarah figcaption {
+  text-align: left;
+}
+
+figure.effect-sarah h2 {
+  position: relative;
+  overflow: hidden;
+  padding: 0.5em 0;
+}
+
+figure.effect-sarah h2::after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background: #fff;
+  content: '';
+  -webkit-transition: -webkit-transform 0.35s;
+  transition: transform 0.35s;
+  -webkit-transform: translate3d(-100%, 0, 0);
+  transform: translate3d(-100%, 0, 0);
+}
+
+figure.effect-sarah:hover h2::after {
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+
+figure.effect-sarah p {
+  padding: 1em 0;
+  opacity: 0;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: translate3d(100%, 0, 0);
+  transform: translate3d(100%, 0, 0);
+}
+
+figure.effect-sarah:hover p {
+  opacity: 1;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
 }
 
 /*photo boxes*/
@@ -356,8 +476,6 @@ h1, h2, h3, h4 {
 .no-padding {
   padding: 0;
 }
-
-
 
 /******************************/
 /******* CONTACT PAGE ********/
@@ -475,21 +593,22 @@ textarea {
   }
   p {
     margin: 10px 0;
-    padding: 0 40px;
+    padding: 0 20px;
   }
   .bg-content {
     background-color: #FFF;
     background-image: url("../images/papar_texture_thumb08.jpg");
     background-position: center;
-    padding: 40px;
+    padding: 40px 20px;
 
   }
 }
+
 .vacancies {
   background-color: #FFF;
   background-image: url("../images/staff.jpg");
   background-position: center;
-  padding: 40px;
+  padding: 20px;
   @include background-size(cover);
 
 }
@@ -497,15 +616,16 @@ textarea {
 /*Footer*/
 
 .footer {
-  color: #FFF;
+
   i {
     margin-top: 20px;
   }
-  a {
-    color: #FFF;
-  }
+
   p {
     margin-top: 10px;
+  }
+  hr {
+    border-color: $base-color;
   }
 }
 
@@ -513,10 +633,125 @@ textarea {
   border-color: #FFF;
 }
 
+#wpadminbar {
+  top: 50px;
+}
 
+.carousel {
+  width: 100%;
+  .carousel-inner {
 
+  }
+}
 
+//gallery page
 
+.gallery-section {
+  padding: 90px 0;
+  background-image: url("../images/bg_gallery.jpg");
+  background-position: center;
+  @include background-size(cover);
+  text-align: center;
+  h3 {
+    margin-top: 20px;
+    font-size: 2rem;
+    color: #FFF;
+    font-weight: 500;
+  }
 
+}
 
+//main page carousel
+.carousel {
+  .carousel-inner img {
+    width: 100vw;
+  }
+}
+
+//menu page
+@media (min-width: 769px) {
+  .menu-page {
+    padding: 150px 0;
+    background-image: url("../images/papar_texture_thumb08.jpg");
+    .nav-menu {
+      box-shadow: 1px 1px 15px rgba(0,0,0,.1);
+      width: 220px;
+      text-align: center;
+      background-color: #fff;
+      & > li > a {
+        display: block;
+        padding: 5px 10px;
+        color: #FFF;
+        background-color: lighten($base-color, 10%);
+        &:hover {
+          color: $base-color;
+          background-color: lighten($base-color, 35%);
+
+          border-left: 10px solid lighten($base-color, 10%);
+        }
+      }
+    }
+  }
+  ul .children {
+    margin: 15px 5px;
+    li {
+    }
+    a {
+      border: 1px solid rgba(255, 255, 255, .1);
+      margin-bottom: -1px;
+      display: block;
+      padding: 5px 10px;
+      border-bottom: 1px solid rgba(174, 158, 87, 0.3);
+      background-color: #FFF;
+      &:hover {
+        color: $base-color;
+        background-color: lighten($base-color, 35%);
+
+        border-left: 10px solid lighten($base-color, 10%)
+      }
+    }
+  }
+}
+
+  .menu-page {
+    padding: 50px 0;
+    background-image: url("../images/papar_texture_thumb08.jpg");
+    .nav-menu {
+      margin: 0 auto;
+      max-width: 300px;
+      text-align: center;
+      background-color: #fff;
+      & > li > a {
+        display: block;
+        padding: 5px 10px;
+        color: #FFF;
+        background-color: lighten($base-color, 10%);
+        &:hover {
+          color: $base-color;
+          background-color: lighten($base-color, 35%);
+
+          border-left: 10px solid lighten($base-color, 10%);
+        }
+      }
+    }
+  }
+  ul .children {
+    margin: 15px 5px;
+    li {
+    }
+    a {
+      border: 1px solid rgba(255, 255, 255, .1);
+      margin-bottom: -1px;
+      display: block;
+      padding: 5px 10px;
+      border-bottom: 1px solid rgba(174, 158, 87, 0.3);
+      background-color: #FFF;
+      &:hover {
+        color: $base-color;
+        background-color: lighten($base-color, 35%);
+
+        border-left: 10px solid lighten($base-color, 10%)
+      }
+    }
+  }
 

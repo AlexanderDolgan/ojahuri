@@ -21,9 +21,8 @@ class BWGControllerGalleries_bwg {
   public function execute() {
     $task = ((isset($_POST['task'])) ? esc_html(stripslashes($_POST['task'])) : '');
     $id = ((isset($_POST['current_id'])) ? esc_html(stripslashes($_POST['current_id'])) : 0);
-
-    if($task != ''){
-      if(!WDWLibrary::verify_nonce('galleries_bwg')){
+    if ($task != '') {
+      if (!WDWLibrary::verify_nonce('galleries_bwg')) {
         die('Sorry, your nonce did not verify.');
       }
     }
@@ -1024,16 +1023,17 @@ class BWGControllerGalleries_bwg {
     global $WD_BWG_UPLOAD_DIR;
     global $wpdb;
     $flag = FALSE;
-    $img_ids = $wpdb->get_results('SELECT * FROM ' . $wpdb->prefix . 'bwg_image');
+    $gallery_id = ((isset($_POST['current_id'])) ? esc_html(stripslashes($_POST['current_id'])) : 0);
+    $img_ids = $wpdb->get_results($wpdb->prepare('SELECT id, thumb_url FROM ' . $wpdb->prefix . 'bwg_image WHERE gallery_id="%d"', $gallery_id));
+    $options = $wpdb->get_row('SELECT * FROM ' . $wpdb->prefix . 'bwg_option');
     foreach ($img_ids as $img_id) {
       if (isset($_POST['check_' . $img_id->id]) || isset($_POST['check_all_items'])) {
 	      $flag = TRUE;
         $file_path = str_replace("thumb", ".original", htmlspecialchars_decode(ABSPATH . $WD_BWG_UPLOAD_DIR . $img_id->thumb_url, ENT_COMPAT | ENT_QUOTES));
 	      $new_file_path = htmlspecialchars_decode(ABSPATH . $WD_BWG_UPLOAD_DIR . $img_id->thumb_url, ENT_COMPAT | ENT_QUOTES);
-        $options = $wpdb->get_row('SELECT * FROM ' . $wpdb->prefix . 'bwg_option');
         list($img_width, $img_height, $type) = @getimagesize(htmlspecialchars_decode($file_path, ENT_COMPAT | ENT_QUOTES));
         if (!$img_width || !$img_height) {
-          return FALSE;
+          continue;
         }
         $max_width = $options->upload_thumb_width;
         $max_height = $options->upload_thumb_height;

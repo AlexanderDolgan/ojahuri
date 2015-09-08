@@ -37,14 +37,4 @@
     </div>
 </section>
 
-<!--------social links-------->
-<aside class="contacts-page-social">
-    <div class="container text-center">
-        <div class="call-to-action">
-            <a href="#" ><i class="fa fa-1x fa-facebook wow bounceIn"></i></a>
-            <a href="#" ><i class="fa fa-1x fa-instagram wow bounceIn"
-                                                       data-wow-delay=".3s"></i></a>
-            <a href="#" ><i class="fa fa-1x fa-vk wow bounceIn" data-wow-delay=".6s"></i></a>
-        </div>
-    </div>
-</aside>
+<?php get_template_part('social-links')?>
