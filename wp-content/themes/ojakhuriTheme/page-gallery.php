@@ -2,12 +2,12 @@
 
 <?php get_template_part( 'navigation' ); ?>
 
-<header class="main-header main-header-gallery">
+<header class="main-header main-header-gallery animatedParent">
 	<div class="header-content">
 
-		<h1>ГАЛЕРЕЯ</h1>
+		<h1 class="animated fadeIn"><?php echo get_the_title(1025); ?></h1>
 		<hr>
-		<h3>55 способов приятно провести время</h3>
+		<h3 class="animated bounceInUp"><?php show_the_content_by_id(1025); ?></h3>
 	</div>
 
 </header>
@@ -18,7 +18,7 @@
 				<div class="col-md-offset-1 col-md-10">
 					<h3>ИНТЕРЬЕР</h3>
 					<hr/>
-					<div>
+					<div class="animated bounceInUp">
 						<?php if ( have_posts() ) :
 							while ( have_posts() ) : the_post();
 								the_content();
@@ -31,7 +31,7 @@
 				<div class="col-md-offset-1 col-md-10">
 					<h3>НАШЕ МЕНЮ</h3>
 					<hr/>
-					<div>
+					<div class="animated bounceInUp">
 						<?php if ( have_posts() ) :
 							while ( have_posts() ) : the_post();
 								the_content();

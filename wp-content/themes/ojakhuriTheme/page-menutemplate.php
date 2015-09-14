@@ -9,16 +9,16 @@ get_header(); ?> <!--include header.php-->
 
 <header class="main-header-theme main-header ">
 	<div class="header-content">
-		<h1>МЕНЮ</h1>
+		<h1><?php echo get_the_title(895); ?></h1>
 		<hr>
-		<h3>Нет любви более искренней, чем любовь к еде.</h3>
+		<h3><?php show_the_content_by_id(895);?></h3>
 	</div>
 </header>
 
-<section class="menu-page">
+<section class="menu-page animatedParent">
 	<div class="container">
 		<div class="row">
-			<div class="col-md-3">
+			<div class="col-md-3 animated ">
 				<ul class="nav-menu">
 					<?php
 					$args = array(
@@ -33,7 +33,7 @@ get_header(); ?> <!--include header.php-->
 			</div>
 			<!--------page content-------->
 
-			<div class="col-md-8">
+			<div class="col-md-8 animated fadeInRightShort">
 
 				<?php if ( have_posts() ) :
 					while ( have_posts() ) : the_post();
@@ -43,36 +43,6 @@ get_header(); ?> <!--include header.php-->
 
 			</div>
 		</div>
-		<style>
-			.erm_menu {
-				border-color: #AD9D88;
-
-			}
-			.erm_menu .erm_title {
-				font-family: 'Lobster';
-				font-size: 4.5rem;
-				color: #474747;
-			}
-			.erm_menu_content > li {
-
-				padding:10px;
-				background-color: #FFF;
-				box-shadow: 1px 1px 10px rgba(0,0,0,.1);
-			}
-			.erm_menu p span {
-				font-family: 'Helvetica Neue', Arial, sans-serif;
-			}
-			.erm_product_title {
-				font-size: 1.4rem;
-				font-family: 'Lobster';
-			}
-			.erm_menu .erm_section_title {
-				font-size: 3rem;
-				font-family: 'Lobster';
-				border-top: 4px solid #AD9D88;
-				border-bottom: 4px solid #AD9D88;
-			}
-		</style>
 	</div>
 </section>
 

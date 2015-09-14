@@ -82,23 +82,31 @@ function show_the_content_by_id( $post_id = 0, $more_link_text = null, $striptea
 	wp_reset_postdata( $post );
 }
 
-function show_the_content_by_id_with_title($post_id = 0, $more_link_text = null, $stripteaser = false){
-global $post;
-$post = &get_post( $post_id );
-setup_postdata( $post, $more_link_text, $stripteaser );
+function show_the_content_by_id_with_title( $post_id = 0, $more_link_text = null, $stripteaser = false ) {
+	global $post;
+	$post = &get_post( $post_id );
+	setup_postdata( $post, $more_link_text, $stripteaser );
+	?>
+	<h1><?php the_title(); ?><h1><?php
+	the_content();
+	wp_reset_postdata( $post );
+}
+
+/*Add theme support- theme format*/
+
+if ( function_exists( 'add_theme_support' ) ) {
+	add_theme_support( 'post-formats', array( 'aside', 'link', 'quote' ) );
+
+}
+
+add_theme_support( 'post-thumbnails' );
+
+remove_action('wp_head', 'rsd_link');
+remove_action('wp_head', 'generator');
+remove_action('wp_head', 'wlwmanifest_link');
+
+remove_filter('term_description','wpautop');
+remove_filter ('the_content',  'wpautop');
+remove_filter ('comment_text', 'wpautop');
+
 ?>
-<h1><?php the_title(); ?><h1><?php
-		the_content();
-		wp_reset_postdata( $post );
-		}
-
-		/*Add theme support- theme format*/
-
-		if ( function_exists( 'add_theme_support' ) ) {
-			add_theme_support( 'post-formats', array( 'aside', 'link', 'quote' ) );
-
-		}
-
-
-
-		?>
