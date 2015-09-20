@@ -3,12 +3,12 @@
 
 <?php get_template_part('navigation'); ?>
 
-<header class="main-header main-header-contacts">
+<header class="main-header main-header-contacts animatedParent">
     <div class="header-content">
 
-        <h1>КОНТАКТЫ</h1>
+        <h1 class="animated fadeIn"><?php echo get_the_title(925); ?></h1>
         <hr>
-        <h3>Добро пожаловать</h3>
+        <h3 class="animated bounceInUp"><?php show_the_content_by_id(925); ?></h3>
     </div>
 </header>
 

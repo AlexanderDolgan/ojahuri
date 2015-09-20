@@ -2,12 +2,12 @@
 
 <?php get_template_part( 'navigation' ); ?>
 
-<header class="main-header main-header-vacancies ">
+<header class="main-header main-header-vacancies animatedParent">
 	<div class="header-content">
 
-		<h1>ВАКАНСИИ</h1>
+		<h1 class="animated fadeIn"><?php echo get_the_title(890); ?></h1>
 		<hr>
-		<h3>С мастерством люди не родятся, но добытым мастерством гордятся.</h3>
+		<h3 class="animated bounceInUp"><?php show_the_content_by_id(890); ?></h3>
 	</div>
 
 </header>
@@ -19,17 +19,15 @@
 		<div class="row">
 			<div class="col-md-offset-2 col-md-8 text-center bg-content animated swing">
 				<i class="fa fa-4x fa-users wow bounceIn text-primary"></i>
-				<h1>Повар</h1>
-				<hr>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, qui Lorem ipsum dolor sit amet.</p>
 
-				<h1>Менеджер</h1>
-				<hr>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, qui Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, qui Lorem ipsum dolor sit amet.</p>
+				<?php if ( have_posts() ) : query_posts('cat=9');
+				while (have_posts()) : the_post(); ?>
 
-				<h1>Официант</h1>
+					<h1><?php the_title(); ?></h1>
 				<hr>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, qui Lorem ipsum dolor sit amet.</p>
+				<p><?php the_content(); ?></p>
+
+				<? endwhile; endif; wp_reset_query(); ?>
 
 			</div>
 		</div>

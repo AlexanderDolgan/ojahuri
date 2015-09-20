@@ -1,5 +1,5 @@
 
-<!--------social links-------->
+<!--social links-->
 
 <aside class="contacts-page-social animatedParent">
 	<div class="container text-center">

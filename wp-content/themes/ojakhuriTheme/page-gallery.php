@@ -27,19 +27,6 @@
 					</div>
 				</div>
 			</div>
-			<div class="row">
-				<div class="col-md-offset-1 col-md-10">
-					<h3>НАШЕ МЕНЮ</h3>
-					<hr/>
-					<div class="animated bounceInUp">
-						<?php if ( have_posts() ) :
-							while ( have_posts() ) : the_post();
-								the_content();
-							endwhile;
-						endif; ?>
-					</div>
-				</div>
-			</div>
 		</div>
 	<style>
 		#bwg_container1_0 #bwg_container2_0 .bwg_title_spun2_0, #bwg_container1_1 #bwg_container2_1 .bwg_title_spun2_1 {

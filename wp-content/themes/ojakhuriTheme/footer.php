@@ -1,33 +1,31 @@
-<!----------contacts---------->
-
-
+<!--contacts-->
 <section class="color-section footer animatedParent" data-sequence="500">
-
-	<div class="container">
-		<div class="section-content-container">
-			<div class="row">
-				<div class="col-lg-8 col-lg-offset-2">
-					<h1>Нас легко найти</h1>
+	<div class="container-fluid">
+			<div class="row col-lg-8 col-md-10 col-lg-offset-2 col-md-offset-1 section-content-container footer-container">
+				<div>
+					<?php if ( have_posts() ) :
+						query_posts( 'p=1041' );
+						while ( have_posts() ) :
+							the_post(); ?>
+					<h1><?php the_title(); ?></h1>
 					<hr class="light"/>
-					<p>Ждем вас в семейном ресторане «Оджахури» <br/>по адресу: г. Химки, ул. Молодежная д.6 Режим работы: с 12:00
-						до 00:00</p>
+					<p><?php the_content(); ?></p>
 				</div>
+
 				<div class="col-lg-4 col-lg-offset-2 col-md-4 col-md-offset-2">
-					<a href="tel:+74957931477"><i class="fa fa-phone fa-2x animated bounceIn" data-id="1"></i></a><br/>
-
-					<a href="tel:+74957931477">+7 (495) 793-14-77</a>
-
+					<a href="tel:<?php echo get_post_meta( $post->ID, 'phone', true ) ?>"><i class="fa fa-phone fa-2x animated bounceIn" data-id="1"></i></a><br/>
+					<a href="tel:<?php echo get_post_meta( $post->ID, 'phone', true ) ?>"><?php echo get_post_meta( $post->ID, 'phone', true ) ?></a>
 				</div>
 
 				<div class="col-lg-4 col-md-4">
-					<a href="mailto:ojakhuri.khimki@gmail.com"><i class="fa fa-envelope-o fa-2x animated bounceIn"
-					                                              data-id="2"></i></a> <br/>
-
-					<a href="mailto:ojakhuri.khimki@gmail.com">pojakhuri.khimki@gmail.com</a>
+					<a href="<?php echo get_post_meta( $post->ID, 'mail', true ) ?>"><i class="fa fa-envelope-o fa-2x animated bounceIn" data-id="2"></i></a> <br/>
+					<a href="mailto:<?php echo get_post_meta( $post->ID, 'mail', true ) ?>"><?php echo get_post_meta( $post->ID, 'mail', true ) ?></a>
+						<?php endwhile; endif;
+					wp_reset_query(); ?>
 				</div>
+
 			</div>
 		</div>
-	</div>
 </section>
 
 <?php wp_footer(); ?>

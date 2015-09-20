@@ -35,14 +35,9 @@
     // Offset for Main Navigation - scrollspy
     $('#mainNav').affix({
         offset: {
-            top: 20
+            top: 30
         }
     })
-
-    // Initialize WOW.js Scrolling Animations
-    new WOW().init();
-
-
 
     ymaps.ready(init);
 

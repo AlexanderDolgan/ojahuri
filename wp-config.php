@@ -70,7 +70,7 @@ $table_prefix  = 'wpdb_';
  * in their development environments.
  */
 define('WP_DEBUG', false);
-
+define('WP_ALLOW_MULTISITE', true);
 /* That's all, stop editing! Happy blogging. */
 
 /** Absolute path to the WordPress directory. */
