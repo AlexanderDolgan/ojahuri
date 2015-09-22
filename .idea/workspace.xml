@@ -2,133 +2,68 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f62b47d0-7e72-41d9-b236-6278f03ae786" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/ojakhuriTheme/images/ojakhuriLogoBlack.png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/languages/plugins/akismet-ru_RU.mo" afterPath="$PROJECT_DIR$/wp-content/languages/plugins/akismet-ru_RU.mo" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/ojakhuriTheme/images/bg_white_section.jpg" afterPath="$PROJECT_DIR$/wp-content/themes/ojakhuriTheme/images/bg_white_section.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/languages/bwg-sr_RS.mo" afterPath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/languages/bwg-sr_RS.mo" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/ojakhuriTheme/images/contact_header2.jpg" afterPath="$PROJECT_DIR$/wp-content/themes/ojakhuriTheme/images/contact_header2.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/ojakhuriTheme/images/header.jpg" afterPath="$PROJECT_DIR$/wp-content/themes/ojakhuriTheme/images/header.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/ojakhuriTheme/images/mainpagegallery/interior1.jpg" afterPath="$PROJECT_DIR$/wp-content/themes/ojakhuriTheme/images/mainpagegallery/interior1.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/ojakhuriTheme/images/mainpagegallery/interior2.jpg" afterPath="$PROJECT_DIR$/wp-content/themes/ojakhuriTheme/images/mainpagegallery/interior2.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/ojakhuriTheme/images/mainpagegallery/interior3.jpg" afterPath="$PROJECT_DIR$/wp-content/themes/ojakhuriTheme/images/mainpagegallery/interior3.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/ojakhuriTheme/images/mainpagegallery/interior4.jpg" afterPath="$PROJECT_DIR$/wp-content/themes/ojakhuriTheme/images/mainpagegallery/interior4.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/ojakhuriTheme/images/interior5.jpg" afterPath="$PROJECT_DIR$/wp-content/themes/ojakhuriTheme/images/interior5.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/ojakhuriTheme/images/mainpagegallery/interior5.jpg" afterPath="$PROJECT_DIR$/wp-content/themes/ojakhuriTheme/images/mainpagegallery/interior5.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/ojakhuriTheme/images/mainpagegallery/interior6.jpg" afterPath="$PROJECT_DIR$/wp-content/themes/ojakhuriTheme/images/mainpagegallery/interior6.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/languages/contact-form-7-da_DK.mo" afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/languages/contact-form-7-da_DK.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/languages/contact-form-7-fa_IR.mo" afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/languages/contact-form-7-fa_IR.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/languages/contact-form-7-hr.mo" afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/languages/contact-form-7-hr.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/languages/contact-form-7-ja.mo" afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/languages/contact-form-7-ja.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/languages/contact-form-7-sv_SE.mo" afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/languages/contact-form-7-sv_SE.mo" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/ojakhuriTheme/.sass-cache/c390ffc6ad7c8bb25dbfbdc579dc10f2ff60ea8a/screen.scssc" afterPath="$PROJECT_DIR$/wp-content/themes/ojakhuriTheme/.sass-cache/c390ffc6ad7c8bb25dbfbdc579dc10f2ff60ea8a/screen.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/tinymce-advanced/langs/tinymce-advanced-ar.mo" afterPath="$PROJECT_DIR$/wp-content/plugins/tinymce-advanced/langs/tinymce-advanced-ar.mo" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/tinymce-advanced/langs/tinymce-advanced-de_DE.mo" afterPath="$PROJECT_DIR$/wp-content/plugins/tinymce-advanced/langs/tinymce-advanced-de_DE.mo" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/tinymce-advanced/langs/tinymce-advanced-fr_FR.mo" afterPath="$PROJECT_DIR$/wp-content/plugins/tinymce-advanced/langs/tinymce-advanced-fr_FR.mo" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/tinymce-advanced/langs/tinymce-advanced-pl_PL.mo" afterPath="$PROJECT_DIR$/wp-content/plugins/tinymce-advanced/langs/tinymce-advanced-pl_PL.mo" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/tinymce-advanced/langs/tinymce-advanced-sv_SE.mo" afterPath="$PROJECT_DIR$/wp-content/plugins/tinymce-advanced/langs/tinymce-advanced-sv_SE.mo" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/languages/themes/twentyfifteen-ru_RU.mo" afterPath="$PROJECT_DIR$/wp-content/languages/themes/twentyfifteen-ru_RU.mo" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/js/tinymce/wp-tinymce.js.gz" afterPath="$PROJECT_DIR$/wp-includes/js/tinymce/wp-tinymce.js.gz" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.htaccess" afterPath="$PROJECT_DIR$/.htaccess" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Guardfile" afterPath="$PROJECT_DIR$/Guardfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-admin/about.php" afterPath="$PROJECT_DIR$/wp-admin/about.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/languages/admin-network-ru_RU.po" afterPath="$PROJECT_DIR$/wp-content/languages/admin-network-ru_RU.po" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/languages/admin-ru_RU.po" afterPath="$PROJECT_DIR$/wp-content/languages/admin-ru_RU.po" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/languages/plugins/akismet-ru_RU.po" afterPath="$PROJECT_DIR$/wp-content/languages/plugins/akismet-ru_RU.po" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/languages/bwg-sr_RS.po" afterPath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/languages/bwg-sr_RS.po" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/category-template.php" afterPath="$PROJECT_DIR$/wp-includes/category-template.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-admin/includes/class-wp-filesystem-ssh2.php" afterPath="$PROJECT_DIR$/wp-admin/includes/class-wp-filesystem-ssh2.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-admin/includes/class-wp-ms-users-list-table.php" afterPath="$PROJECT_DIR$/wp-admin/includes/class-wp-ms-users-list-table.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-admin/includes/class-wp-users-list-table.php" afterPath="$PROJECT_DIR$/wp-admin/includes/class-wp-users-list-table.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/class-wp-xmlrpc-server.php" afterPath="$PROJECT_DIR$/wp-includes/class-wp-xmlrpc-server.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/js/tinymce/skins/lightgray/content.inline.min.css" afterPath="$PROJECT_DIR$/wp-includes/js/tinymce/skins/lightgray/content.inline.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/js/tinymce/skins/lightgray/content.min.css" afterPath="$PROJECT_DIR$/wp-includes/js/tinymce/skins/lightgray/content.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/languages/continents-cities-ru_RU.po" afterPath="$PROJECT_DIR$/wp-content/languages/continents-cities-ru_RU.po" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/ojakhuriTheme/js/creative.js" afterPath="$PROJECT_DIR$/wp-content/themes/ojakhuriTheme/js/creative.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-admin/js/customize-controls.js" afterPath="$PROJECT_DIR$/wp-admin/js/customize-controls.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-admin/js/customize-controls.min.js" afterPath="$PROJECT_DIR$/wp-admin/js/customize-controls.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-admin/js/customize-nav-menus.js" afterPath="$PROJECT_DIR$/wp-admin/js/customize-nav-menus.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-admin/js/customize-nav-menus.min.js" afterPath="$PROJECT_DIR$/wp-admin/js/customize-nav-menus.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/default-widgets.php" afterPath="$PROJECT_DIR$/wp-includes/default-widgets.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-github-sync/vendor/composer/ClassLoader.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-github-sync/vendor/composer/ClassLoader.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-github-sync/README.txt" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-github-sync/README.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/modules/acceptance.php" afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/modules/acceptance.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/admin/admin.php" afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/admin/admin.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-github-sync/lib/admin.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-github-sync/lib/admin.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-github-sync/vendor/autoload.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-github-sync/vendor/autoload.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-github-sync/vendor/composer/autoload_classmap.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-github-sync/vendor/composer/autoload_classmap.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-github-sync/vendor/composer/autoload_files.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-github-sync/vendor/composer/autoload_files.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-github-sync/vendor/composer/autoload_namespaces.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-github-sync/vendor/composer/autoload_namespaces.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-github-sync/vendor/composer/autoload_real.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-github-sync/vendor/composer/autoload_real.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/update/bwg_update.php" afterPath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/update/bwg_update.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-github-sync/lib/cache.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-github-sync/lib/cache.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/modules/checkbox.php" afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/modules/checkbox.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-github-sync/lib/cli.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-github-sync/lib/cli.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/languages/contact-form-7.pot" afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/languages/contact-form-7.pot" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/contact-form.php" afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/contact-form.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/controller.php" afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/controller.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-github-sync/lib/controller.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-github-sync/lib/controller.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/modules/date.php" afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/modules/date.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/deployment.xml" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-admin/js/edit-comments.js" afterPath="$PROJECT_DIR$/wp-admin/js/edit-comments.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-admin/js/edit-comments.min.js" afterPath="$PROJECT_DIR$/wp-admin/js/edit-comments.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/quick-restaurant-menu/assets/fonts/fontawesome-webfont.svg" afterPath="$PROJECT_DIR$/wp-content/plugins/quick-restaurant-menu/assets/fonts/fontawesome-webfont.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/ojakhuriTheme/footer.php" afterPath="$PROJECT_DIR$/wp-content/themes/ojakhuriTheme/footer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/formatting.php" afterPath="$PROJECT_DIR$/wp-includes/formatting.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-admin/css/forms-rtl.css" afterPath="$PROJECT_DIR$/wp-admin/css/forms-rtl.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-admin/css/forms.css" afterPath="$PROJECT_DIR$/wp-admin/css/forms.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/admin/edit-contact-form.php" afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/admin/edit-contact-form.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/modules/file.php" afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/modules/file.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/formatting.php" afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/formatting.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/functions.php" afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/functions.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/functions.php" afterPath="$PROJECT_DIR$/wp-includes/functions.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/css/jquery.mCustomScrollbar.css" afterPath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/css/jquery.mCustomScrollbar.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-admin/css/list-tables-rtl.css" afterPath="$PROJECT_DIR$/wp-admin/css/list-tables-rtl.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-admin/css/list-tables.css" afterPath="$PROJECT_DIR$/wp-admin/css/list-tables.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-admin/css/login-rtl.min.css" afterPath="$PROJECT_DIR$/wp-admin/css/login-rtl.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-admin/css/login.min.css" afterPath="$PROJECT_DIR$/wp-admin/css/login.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/media.php" afterPath="$PROJECT_DIR$/wp-includes/media.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-github-sync/vendor/composer/installed.json" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-github-sync/vendor/composer/installed.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/integration.php" afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/integration.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/modules/jetpack.php" afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/modules/jetpack.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/license.txt" afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/license.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/ojakhuriTheme/navigation.php" afterPath="$PROJECT_DIR$/wp-content/themes/ojakhuriTheme/navigation.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/css/notices.css" afterPath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/css/notices.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/ojakhuriTheme/page-contacts-2.php" afterPath="$PROJECT_DIR$/wp-content/themes/ojakhuriTheme/page-contacts-2.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/ojakhuriTheme/page-gallery.php" afterPath="$PROJECT_DIR$/wp-content/themes/ojakhuriTheme/page-gallery.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/modules/number.php" afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/modules/number.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/ojakhuriTheme/page-mainojakhuri.php" afterPath="$PROJECT_DIR$/wp-content/themes/ojakhuriTheme/page-mainojakhuri.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/ojakhuriTheme/page-vacancies.php" afterPath="$PROJECT_DIR$/wp-content/themes/ojakhuriTheme/page-vacancies.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/ojakhuriTheme/page.php" afterPath="$PROJECT_DIR$/wp-content/themes/ojakhuriTheme/page.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/photo-gallery-notices.php" afterPath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/photo-gallery-notices.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/photo-gallery.php" afterPath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/photo-gallery.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/pluggable.php" afterPath="$PROJECT_DIR$/wp-includes/pluggable.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/tinymce-advanced/mce/link/plugin.js" afterPath="$PROJECT_DIR$/wp-content/plugins/tinymce-advanced/mce/link/plugin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/tinymce-advanced/mce/table/plugin.js" afterPath="$PROJECT_DIR$/wp-content/plugins/tinymce-advanced/mce/table/plugin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/js/tinymce/plugins/charmap/plugin.js" afterPath="$PROJECT_DIR$/wp-includes/js/tinymce/plugins/charmap/plugin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/js/tinymce/plugins/lists/plugin.js" afterPath="$PROJECT_DIR$/wp-includes/js/tinymce/plugins/lists/plugin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/js/tinymce/plugins/media/plugin.js" afterPath="$PROJECT_DIR$/wp-includes/js/tinymce/plugins/media/plugin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/js/tinymce/plugins/paste/plugin.js" afterPath="$PROJECT_DIR$/wp-includes/js/tinymce/plugins/paste/plugin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/js/tinymce/plugins/wpeditimage/plugin.js" afterPath="$PROJECT_DIR$/wp-includes/js/tinymce/plugins/wpeditimage/plugin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/js/tinymce/plugins/wplink/plugin.js" afterPath="$PROJECT_DIR$/wp-includes/js/tinymce/plugins/wplink/plugin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/js/tinymce/plugins/wpview/plugin.js" afterPath="$PROJECT_DIR$/wp-includes/js/tinymce/plugins/wpview/plugin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/tinymce-advanced/mce/link/plugin.min.js" afterPath="$PROJECT_DIR$/wp-content/plugins/tinymce-advanced/mce/link/plugin.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/tinymce-advanced/mce/table/plugin.min.js" afterPath="$PROJECT_DIR$/wp-content/plugins/tinymce-advanced/mce/table/plugin.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/js/tinymce/plugins/charmap/plugin.min.js" afterPath="$PROJECT_DIR$/wp-includes/js/tinymce/plugins/charmap/plugin.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/js/tinymce/plugins/media/plugin.min.js" afterPath="$PROJECT_DIR$/wp-includes/js/tinymce/plugins/media/plugin.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/js/tinymce/plugins/paste/plugin.min.js" afterPath="$PROJECT_DIR$/wp-includes/js/tinymce/plugins/paste/plugin.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/js/tinymce/plugins/wpeditimage/plugin.min.js" afterPath="$PROJECT_DIR$/wp-includes/js/tinymce/plugins/wpeditimage/plugin.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/js/tinymce/plugins/wplink/plugin.min.js" afterPath="$PROJECT_DIR$/wp-includes/js/tinymce/plugins/wplink/plugin.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/js/tinymce/plugins/wpview/plugin.min.js" afterPath="$PROJECT_DIR$/wp-includes/js/tinymce/plugins/wpview/plugin.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-github-sync/lib/post.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-github-sync/lib/post.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/modules/quiz.php" afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/modules/quiz.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/readme.html" afterPath="$PROJECT_DIR$/readme.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/readme.txt" afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/readme.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/readme.txt" afterPath="$PROJECT_DIR$/wp-content/plugins/photo-gallery/readme.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/tinymce-advanced/readme.txt" afterPath="$PROJECT_DIR$/wp-content/plugins/tinymce-advanced/readme.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/languages/ru_RU.po" afterPath="$PROJECT_DIR$/wp-content/languages/ru_RU.po" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/ojakhuriTheme/stylesheets/screen.css" afterPath="$PROJECT_DIR$/wp-content/themes/ojakhuriTheme/stylesheets/screen.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/ojakhuriTheme/sass/screen.scss" afterPath="$PROJECT_DIR$/wp-content/themes/ojakhuriTheme/sass/screen.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/shortcodes.php" afterPath="$PROJECT_DIR$/wp-includes/shortcodes.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-admin/network/site-new.php" afterPath="$PROJECT_DIR$/wp-admin/network/site-new.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-admin/network/site-users.php" afterPath="$PROJECT_DIR$/wp-admin/network/site-users.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/js/tinymce/skins/lightgray/skin.ie7.min.css" afterPath="$PROJECT_DIR$/wp-includes/js/tinymce/skins/lightgray/skin.ie7.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/js/tinymce/skins/lightgray/skin.min.css" afterPath="$PROJECT_DIR$/wp-includes/js/tinymce/skins/lightgray/skin.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/ojakhuriTheme/social-links.php" afterPath="$PROJECT_DIR$/wp-content/themes/ojakhuriTheme/social-links.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/tinymce-advanced/tadv_admin.php" afterPath="$PROJECT_DIR$/wp-content/plugins/tinymce-advanced/tadv_admin.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/taxonomy.php" afterPath="$PROJECT_DIR$/wp-includes/taxonomy.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-admin/includes/template.php" afterPath="$PROJECT_DIR$/wp-admin/includes/template.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/js/tinymce/themes/modern/theme.js" afterPath="$PROJECT_DIR$/wp-includes/js/tinymce/themes/modern/theme.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/js/tinymce/themes/modern/theme.min.js" afterPath="$PROJECT_DIR$/wp-includes/js/tinymce/themes/modern/theme.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/tinymce-advanced/langs/tinymce-advanced-ar.po" afterPath="$PROJECT_DIR$/wp-content/plugins/tinymce-advanced/langs/tinymce-advanced-ar.po" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/tinymce-advanced/langs/tinymce-advanced-de_DE.po" afterPath="$PROJECT_DIR$/wp-content/plugins/tinymce-advanced/langs/tinymce-advanced-de_DE.po" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/tinymce-advanced/langs/tinymce-advanced-fr_FR.po" afterPath="$PROJECT_DIR$/wp-content/plugins/tinymce-advanced/langs/tinymce-advanced-fr_FR.po" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/tinymce-advanced/langs/tinymce-advanced-pl_PL.po" afterPath="$PROJECT_DIR$/wp-content/plugins/tinymce-advanced/langs/tinymce-advanced-pl_PL.po" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/tinymce-advanced/langs/tinymce-advanced-sv_SE.po" afterPath="$PROJECT_DIR$/wp-content/plugins/tinymce-advanced/langs/tinymce-advanced-sv_SE.po" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/tinymce-advanced/tinymce-advanced.php" afterPath="$PROJECT_DIR$/wp-content/plugins/tinymce-advanced/tinymce-advanced.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/tinymce-advanced/langs/tinymce-advanced.pot" afterPath="$PROJECT_DIR$/wp-content/plugins/tinymce-advanced/langs/tinymce-advanced.pot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/js/tinymce/tinymce.min.js" afterPath="$PROJECT_DIR$/wp-includes/js/tinymce/tinymce.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/languages/themes/twentyfifteen-ru_RU.po" afterPath="$PROJECT_DIR$/wp-content/languages/themes/twentyfifteen-ru_RU.po" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-admin/includes/upgrade.php" afterPath="$PROJECT_DIR$/wp-admin/includes/upgrade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-admin/network/user-new.php" afterPath="$PROJECT_DIR$/wp-admin/network/user-new.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-admin/js/user-profile.js" afterPath="$PROJECT_DIR$/wp-admin/js/user-profile.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-admin/js/user-profile.min.js" afterPath="$PROJECT_DIR$/wp-admin/js/user-profile.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-admin/includes/user.php" afterPath="$PROJECT_DIR$/wp-admin/includes/user.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/user.php" afterPath="$PROJECT_DIR$/wp-includes/user.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-admin/network/users.php" afterPath="$PROJECT_DIR$/wp-admin/network/users.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/admin/js/scripts.js" afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/admin/js/scripts.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/js/scripts.js" afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/js/scripts.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/modules/select.php" afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/modules/select.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/settings.php" afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/settings.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/shortcodes.php" afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/includes/shortcodes.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/modules/submit.php" afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/modules/submit.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/admin/js/tag-generator.js" afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/admin/js/tag-generator.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/modules/text.php" afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/modules/text.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/modules/textarea.php" afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/modules/textarea.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/version.php" afterPath="$PROJECT_DIR$/wp-includes/version.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/widgets.php" afterPath="$PROJECT_DIR$/wp-includes/widgets.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-admin/css/wp-admin-rtl.min.css" afterPath="$PROJECT_DIR$/wp-admin/css/wp-admin-rtl.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-admin/css/wp-admin.min.css" afterPath="$PROJECT_DIR$/wp-admin/css/wp-admin.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/js/wp-ajax-response.js" afterPath="$PROJECT_DIR$/wp-includes/js/wp-ajax-response.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/js/wp-ajax-response.min.js" afterPath="$PROJECT_DIR$/wp-includes/js/wp-ajax-response.min.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-config-sample.php" afterPath="$PROJECT_DIR$/wp-config-sample.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-config.php" afterPath="$PROJECT_DIR$/wp-config.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/wp-db.php" afterPath="$PROJECT_DIR$/wp-includes/wp-db.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/wp-contact-form-7.php" afterPath="$PROJECT_DIR$/wp-content/plugins/contact-form-7/wp-contact-form-7.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wp-github-sync/wp-github-sync.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-github-sync/wp-github-sync.php" />
     </list>
     <ignored path="ojahuri.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -149,89 +84,38 @@
     <favorites_list name="ojahuri" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
-      <split-first>
-        <leaf>
-          <file leaf-file-name="page-mainojakhuri.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/wp-content/themes/ojakhuriTheme/page-mainojakhuri.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="6.68">
-                  <caret line="96" column="28" selection-start-line="96" selection-start-column="28" selection-end-line="96" selection-end-column="28" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name=".htaccess" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/.htaccess">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.4526749">
-                  <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="page-menu.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/wp-content/themes/ojakhuriTheme/page-menu.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-3.24">
-                  <caret line="23" column="48" selection-start-line="23" selection-start-column="48" selection-end-line="23" selection-end-column="48" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="functions.php" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/wp-content/themes/ojakhuriTheme/functions.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="3.96">
-                  <caret line="79" column="40" selection-start-line="79" selection-start-column="40" selection-end-line="79" selection-end-column="40" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="wp-config.php" pinned="true" current-in-tab="false">
-            <entry file="REMOTE_DEPLOYMENT_FS://&lt;cb88567e-e71c-49eb-ac7a-01211d91a54f&gt;/wp-config.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-2.2580645">
-                  <caret line="25" column="31" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file leaf-file-name="screen.scss" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/wp-content/themes/ojakhuriTheme/sass/screen.scss">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-1.5384616">
-                  <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-                  <folding>
-                    <marker date="1442758172000" expanded="true" signature="11062:11174" placeholder="{...}" />
-                    <marker date="1442758172000" expanded="true" signature="12290:12298" placeholder="{...}" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="page-menutemplate.php" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/wp-content/themes/ojakhuriTheme/page-menutemplate.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.73752713">
-                  <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf>
+      <file leaf-file-name="page-mainojakhuri.php" pinned="true" current-in-tab="false">
+        <entry file="REMOTE_DEPLOYMENT_FS://&lt;cb88567e-e71c-49eb-ac7a-01211d91a54f&gt;/wp-content/themes/ojakhuriTheme/page-mainojakhuri.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.php" pinned="true" current-in-tab="false">
+        <entry file="REMOTE_DEPLOYMENT_FS://&lt;cb88567e-e71c-49eb-ac7a-01211d91a54f&gt;/wp-content/themes/ojakhuriTheme/header.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="navigation.php" pinned="true" current-in-tab="true">
+        <entry file="REMOTE_DEPLOYMENT_FS://&lt;cb88567e-e71c-49eb-ac7a-01211d91a54f&gt;/wp-content/themes/ojakhuriTheme/navigation.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.42477876">
+              <caret line="17" column="42" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -312,9 +196,9 @@
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
     <option name="x" value="2" />
-    <option name="y" value="519" />
+    <option name="y" value="378" />
     <option name="width" value="1917" />
-    <option name="height" value="557" />
+    <option name="height" value="698" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -392,53 +276,13 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ojahuri" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ojahuri" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wp-content" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="themes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ojahuri" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ojahuri" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wp-content" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="themes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ojakhuriTheme" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="SearchEverywhereHistoryKey" value="function&#9;FILE&#9;file:///Applications/MAMP/htdocs/ojahuri/wp-content/themes/ojakhuriTheme/functions.php&#10;page-me&#9;FILE&#9;file:///Applications/MAMP/htdocs/ojahuri/wp-content/themes/ojakhuriTheme/page-menutemplate.php&#10;functio&#9;FILE&#9;file:///Applications/MAMP/htdocs/ojahuri/wp-content/themes/ojakhuriTheme/functions.php&#10;menu&#9;FILE&#9;file:///Applications/MAMP/htdocs/ojahuri/wp-content/themes/ojakhuriTheme/page-menu.php&#10;deploy&#9;ACTION&#9;PublishGroupPopupMenu&#10;remote&#9;ACTION&#9;ActivateRemoteHostToolWindow&#10;scree&#9;FILE&#9;file:///Applications/MAMP/htdocs/ojahuri/wp-content/themes/ojakhuriTheme/sass/screen.scss&#10;gallery&#9;FILE&#9;file:///Applications/MAMP/htdocs/ojahuri/wp-content/themes/ojakhuriTheme/page-gallery.php&#10;main&#9;FILE&#9;file:///Applications/MAMP/htdocs/ojahuri/wp-content/themes/ojakhuriTheme/page-mainojakhuri.php&#10;social&#9;FILE&#9;file:///Applications/MAMP/htdocs/ojahuri/wp-content/themes/ojakhuriTheme/social-links.php&#10;func&#9;FILE&#9;file:///Applications/MAMP/htdocs/ojahuri/wp-content/themes/ojakhuriTheme/functions.php&#10;cont&#9;FILE&#9;file:///Applications/MAMP/htdocs/ojahuri/wp-content/themes/ojakhuriTheme/page-contacts-2.php&#10;screen&#9;FILE&#9;file:///Applications/MAMP/htdocs/ojahuri/wp-content/themes/ojakhuriTheme/sass/screen.scss&#10;header&#9;FILE&#9;file:///Applications/MAMP/htdocs/ojahuri/wp-content/themes/ojakhuriTheme/header.php&#10;fu&#9;FILE&#9;file:///Applications/MAMP/htdocs/ojahuri/wp-content/themes/ojakhuriTheme/functions.php&#10;social-links&#9;FILE&#9;file:///Applications/MAMP/htdocs/ojahuri/wp-content/themes/ojakhuriTheme/social-links.php&#10;footer&#9;FILE&#9;file:///Applications/MAMP/htdocs/ojahuri/wp-content/themes/ojakhuriTheme/footer.php&#10;vaca&#9;FILE&#9;file:///Applications/MAMP/htdocs/ojahuri/wp-content/themes/ojakhuriTheme/page-vacancies.php&#10;setting&#9;ACTION&#9;Database.Settings&#10;server&#9;ACTION&#9;tasks.configure.servers&#10;cre&#9;FILE&#9;file:///Applications/MAMP/htdocs/ojahuri/wp-content/themes/ojakhuriTheme/js/creative.js&#10;creat&#9;FILE&#9;file:///Applications/MAMP/htdocs/ojahuri/wp-content/themes/ojakhuriTheme/css/creative.css&#10;functi&#9;FILE&#9;file:///Applications/MAMP/htdocs/ojahuri/wp-content/themes/ojakhuriTheme/functions.php&#10;scr&#9;FILE&#9;file:///Applications/MAMP/htdocs/ojahuri/wp-content/themes/ojakhuriTheme/stylesheets/screen.css&#10;fun&#9;FILE&#9;file:///Applications/MAMP/htdocs/ojahuri/wp-content/themes/ojakhuriTheme/functions.php&#10;crea&#9;FILE&#9;file:///Applications/MAMP/htdocs/ojahuri/wp-content/themes/ojakhuriTheme/js/creative.js&#10;contac&#9;FILE&#9;file:///Applications/MAMP/htdocs/ojahuri/wp-content/themes/ojakhuriTheme/page-contacts-2.php&#10;sett&#9;ACTION&#9;Database.Settings&#10;vacan&#9;FILE&#9;file:///Applications/MAMP/htdocs/ojahuri/wp-content/themes/ojakhuriTheme/page-vacancies.php&#10;plug&#9;ACTION&#9;WelcomeScreen.Plugins&#10;settings&#9;FILE&#9;file:///Applications/MAMP/htdocs/ojahuri/wp-content/plugins/contact-form-7/settings.php&#10;men&#9;FILE&#9;file:///Applications/MAMP/htdocs/ojahuri/wp-content/themes/ojakhuriTheme/page-menu.php&#10;con&#9;FILE&#9;file:///Applications/MAMP/htdocs/ojahuri/wp-content/themes/ojakhuriTheme/page-contacts-2.php&#10;foote&#9;FILE&#9;file:///Applications/MAMP/htdocs/ojahuri/wp-content/themes/ojakhuriTheme/footer.php&#10;foter&#9;null&#9;null&#10;navi&#9;FILE&#9;file:///Applications/MAMP/htdocs/ojahuri/wp-content/themes/ojakhuriTheme/navigation.php&#10;index&#9;FILE&#9;file:///Applications/MAMP/htdocs/ojahuri/wp-content/themes/ojakhuriTheme/index.php&#10;home&#9;FILE&#9;file:///Applications/MAMP/htdocs/ojahuri/wp-content/themes/ojakhuriTheme/page-home.php&#10;funct&#9;FILE&#9;file:///Applications/MAMP/htdocs/ojahuri/wp-content/themes/ojakhuriTheme/functions.php&#10;page&#9;FILE&#9;file:///Applications/MAMP/htdocs/ojahuri/wp-content/themes/ojakhuriTheme/page.php&#10;vac&#9;FILE&#9;file:///Applications/MAMP/htdocs/ojahuri/wp-content/themes/ojakhuriTheme/page-vacancies.php&#10;gal&#9;FILE&#9;file:///Applications/MAMP/htdocs/ojahuri/wp-content/themes/ojakhuriTheme/page-gallery.php&#10;heade&#9;FILE&#9;file:///Applications/MAMP/htdocs/ojahuri/wp-content/themes/ojakhuriTheme/header.php" />
+    <property name="SearchEverywhereHistoryKey" value="remo&#9;ACTION&#9;ActivateRemoteHostToolWindow&#10;deploy&#9;FILE&#9;file:///Applications/MAMP/htdocs/ojahuri/readme1.html&#10;function&#9;FILE&#9;file:///Applications/MAMP/htdocs/ojahuri/wp-content/themes/ojakhuriTheme/functions.php&#10;page-me&#9;FILE&#9;file:///Applications/MAMP/htdocs/ojahuri/wp-content/themes/ojakhuriTheme/page-menutemplate.php&#10;functio&#9;FILE&#9;file:///Applications/MAMP/htdocs/ojahuri/wp-content/themes/ojakhuriTheme/functions.php&#10;menu&#9;FILE&#9;file:///Applications/MAMP/htdocs/ojahuri/wp-content/themes/ojakhuriTheme/page-menu.php&#10;remote&#9;ACTION&#9;ActivateRemoteHostToolWindow&#10;scree&#9;FILE&#9;file:///Applications/MAMP/htdocs/ojahuri/wp-content/themes/ojakhuriTheme/sass/screen.scss&#10;gallery&#9;FILE&#9;file:///Applications/MAMP/htdocs/ojahuri/wp-content/themes/ojakhuriTheme/page-gallery.php&#10;main&#9;FILE&#9;file:///Applications/MAMP/htdocs/ojahuri/wp-content/themes/ojakhuriTheme/page-mainojakhuri.php&#10;social&#9;FILE&#9;file:///Applications/MAMP/htdocs/ojahuri/wp-content/themes/ojakhuriTheme/social-links.php&#10;func&#9;FILE&#9;file:///Applications/MAMP/htdocs/ojahuri/wp-content/themes/ojakhuriTheme/functions.php&#10;cont&#9;FILE&#9;file:///Applications/MAMP/htdocs/ojahuri/wp-content/themes/ojakhuriTheme/page-contacts-2.php&#10;screen&#9;FILE&#9;file:///Applications/MAMP/htdocs/ojahuri/wp-content/themes/ojakhuriTheme/sass/screen.scss&#10;header&#9;FILE&#9;file:///Applications/MAMP/htdocs/ojahuri/wp-content/themes/ojakhuriTheme/header.php&#10;fu&#9;FILE&#9;file:///Applications/MAMP/htdocs/ojahuri/wp-content/themes/ojakhuriTheme/functions.php&#10;social-links&#9;FILE&#9;file:///Applications/MAMP/htdocs/ojahuri/wp-content/themes/ojakhuriTheme/social-links.php&#10;footer&#9;FILE&#9;file:///Applications/MAMP/htdocs/ojahuri/wp-content/themes/ojakhuriTheme/footer.php&#10;vaca&#9;FILE&#9;file:///Applications/MAMP/htdocs/ojahuri/wp-content/themes/ojakhuriTheme/page-vacancies.php&#10;setting&#9;ACTION&#9;Database.Settings&#10;server&#9;ACTION&#9;tasks.configure.servers&#10;cre&#9;FILE&#9;file:///Applications/MAMP/htdocs/ojahuri/wp-content/themes/ojakhuriTheme/js/creative.js&#10;creat&#9;FILE&#9;file:///Applications/MAMP/htdocs/ojahuri/wp-content/themes/ojakhuriTheme/css/creative.css&#10;functi&#9;FILE&#9;file:///Applications/MAMP/htdocs/ojahuri/wp-content/themes/ojakhuriTheme/functions.php&#10;scr&#9;FILE&#9;file:///Applications/MAMP/htdocs/ojahuri/wp-content/themes/ojakhuriTheme/stylesheets/screen.css&#10;fun&#9;FILE&#9;file:///Applications/MAMP/htdocs/ojahuri/wp-content/themes/ojakhuriTheme/functions.php&#10;crea&#9;FILE&#9;file:///Applications/MAMP/htdocs/ojahuri/wp-content/themes/ojakhuriTheme/js/creative.js&#10;contac&#9;FILE&#9;file:///Applications/MAMP/htdocs/ojahuri/wp-content/themes/ojakhuriTheme/page-contacts-2.php&#10;sett&#9;ACTION&#9;Database.Settings&#10;vacan&#9;FILE&#9;file:///Applications/MAMP/htdocs/ojahuri/wp-content/themes/ojakhuriTheme/page-vacancies.php&#10;plug&#9;ACTION&#9;WelcomeScreen.Plugins&#10;settings&#9;FILE&#9;file:///Applications/MAMP/htdocs/ojahuri/wp-content/plugins/contact-form-7/settings.php&#10;men&#9;FILE&#9;file:///Applications/MAMP/htdocs/ojahuri/wp-content/themes/ojakhuriTheme/page-menu.php&#10;con&#9;FILE&#9;file:///Applications/MAMP/htdocs/ojahuri/wp-content/themes/ojakhuriTheme/page-contacts-2.php&#10;foote&#9;FILE&#9;file:///Applications/MAMP/htdocs/ojahuri/wp-content/themes/ojakhuriTheme/footer.php&#10;foter&#9;null&#9;null&#10;navi&#9;FILE&#9;file:///Applications/MAMP/htdocs/ojahuri/wp-content/themes/ojakhuriTheme/navigation.php&#10;index&#9;FILE&#9;file:///Applications/MAMP/htdocs/ojahuri/wp-content/themes/ojakhuriTheme/index.php&#10;home&#9;FILE&#9;file:///Applications/MAMP/htdocs/ojahuri/wp-content/themes/ojakhuriTheme/page-home.php&#10;funct&#9;FILE&#9;file:///Applications/MAMP/htdocs/ojahuri/wp-content/themes/ojakhuriTheme/functions.php&#10;page&#9;FILE&#9;file:///Applications/MAMP/htdocs/ojahuri/wp-content/themes/ojakhuriTheme/page.php&#10;vac&#9;FILE&#9;file:///Applications/MAMP/htdocs/ojahuri/wp-content/themes/ojakhuriTheme/page-vacancies.php&#10;gal&#9;FILE&#9;file:///Applications/MAMP/htdocs/ojahuri/wp-content/themes/ojakhuriTheme/page-gallery.php&#10;heade&#9;FILE&#9;file:///Applications/MAMP/htdocs/ojahuri/wp-content/themes/ojakhuriTheme/header.php" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="options.lastSelected" value="org.jetbrains.plugins.sass.extensions.compass.CompassConfigurableProvider$1" />
     <property name="options.splitter.main.proportions" value="0.29854578" />
@@ -504,14 +348,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2" y="519" width="1917" height="557" extended-state="0" />
-    <editor active="true" />
+    <frame x="2" y="378" width="1917" height="698" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879376" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3256059" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18675013" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3249027" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18675013" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32730925" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3183716" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="SvgViewer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -519,7 +363,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18414189" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18414189" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -807,13 +651,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/readme1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.045714285">
-          <caret line="21" column="12" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/ojakhuriTheme/social-links.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.24523161">
@@ -909,37 +746,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/ojakhuriTheme/sass/screen.scss">
+    <entry file="file://$PROJECT_DIR$/readme1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.5384616">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding>
-            <marker date="1442758172000" expanded="true" signature="11062:11174" placeholder="{...}" />
-            <marker date="1442758172000" expanded="true" signature="12290:12298" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/ojakhuriTheme/functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="3.96">
-          <caret line="79" column="40" selection-start-line="79" selection-start-column="40" selection-end-line="79" selection-end-column="40" />
+        <state vertical-scroll-proportion="0.04989154">
+          <caret line="21" column="12" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/ojakhuriTheme/page-menu.php">
+    <entry file="file://$PROJECT_DIR$/.htaccess">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.24">
-          <caret line="23" column="48" selection-start-line="23" selection-start-column="48" selection-end-line="23" selection-end-column="48" />
+        <state vertical-scroll-proportion="0.41152263">
+          <caret line="10" column="15" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/ojakhuriTheme/page-mainojakhuri.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="6.68">
+        <state vertical-scroll-proportion="0.28850326">
           <caret line="96" column="28" selection-start-line="96" selection-start-column="28" selection-end-line="96" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/ojakhuriTheme/page-menu.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.17570499">
+          <caret line="23" column="48" selection-start-line="23" selection-start-column="48" selection-end-line="23" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/ojakhuriTheme/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2624729">
+          <caret line="79" column="40" selection-start-line="79" selection-start-column="40" selection-end-line="79" selection-end-column="40" />
           <folding />
         </state>
       </provider>
@@ -952,11 +794,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.htaccess">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/ojakhuriTheme/sass/screen.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4526749">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
+        <state vertical-scroll-proportion="0.1843318">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding>
+            <marker date="1442877472000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1442877472000" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>

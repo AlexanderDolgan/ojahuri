@@ -7,4 +7,5 @@ $baseDir = dirname($vendorDir);
 
 return array(
     $vendorDir . '/maadhattah/cyps/Cyps.php',
+    $baseDir . '/helpers.php',
 );

@@ -1,9 +1,9 @@
 === WordPress <--> GitHub Sync ===
 Contributors: benbalter, JamesDiGioia  
 Tags: github, git, version control, content, collaboration, publishing  
-Requires at least: 3.8  
+Requires at least: 3.9  
 Tested up to: 4.2.3  
-Stable tag: 1.1.1  
+Stable tag: 1.2  
 License: GPLv2  
 License URI: http://www.gnu.org/licenses/gpl-2.0.html  
 
@@ -125,6 +125,34 @@ add_filter('wpghs_whitelisted_post_statuses', function ($supported_post_statuses
 });
 ```
 
+= Add "Edit|View on GitHub" Link =
+
+If you want to add a link to your posts on GitHub, there are 4 functions WordPress<-->GitHub Sync makes available for you to use in your themes or as part of `the_content` filter:
+
+* `get_the_github_view_url` - returns the URL on GitHub to view the current post
+* `get_the_github_view_link` - returns an anchor tag (`<a>`) with its href set the the view url
+* `get_the_github_edit_url` - returns the URL on GitHub to edit the current post
+* `get_the_github_edit_link` - returns an anchor tag (`<a>`) with its href set the the edit url
+
+All four of these functions must be used in the loop. If you'd like to retrieve these URLs outside of the loop, instantiate a new `WordPress_GitHub_Sync_Post` object and call `github_edit_url` or `github_view_url` respectively on it:
+
+```php
+// $id can be retrieved from a query or elsewhere
+$wpghs_post = new WordPress_GitHub_Sync_Post( $id );
+$url = $wpghs_post->github_view_url();
+```
+
+If you'd like to include an edit link without modifying your theme directly, you can add one of these functions to `the_content` like so:
+
+```php
+add_filter( 'the_content', function( $content ) {
+  if( is_page() || is_single() ) {
+    $content .= get_the_github_edit_link();
+  }
+  return $content;
+}, 1000 );
+```
+
 = Additional Customizations =
 
 There are a number of other filters available in WordPress <--> GitHub Sync for customizing various parts of the export, including the commit message and YAML front-matter. Want more detail? Check out the [wiki](https://github.com/benbalter/wordpress-github-sync/wiki).
@@ -145,7 +173,14 @@ See [the contributing documentation](CONTRIBUTING.md) for details.
 
 == Changelog ==
 
-This change log follows the [Keep a Changelog standards](http://keepachangelog.com/). Versions follows [Semantic Versioning](http://semver.org/).
+This change log follows the [Keep a Changelog standards]. Versions follows [Semantic Versioning].
+
+= [1.2] =
+
+* New Feature: Support displaying an "Edit|View on GitHub" link.
+* Update translation strings and implement pot file generation.
+* Redirect user away from settings page page after the import/export process starts.
+* Fix autoloader to be PHP 5.2 compatible.
 
 = [1.1.1] =
 
@@ -169,6 +204,10 @@ This change log follows the [Keep a Changelog standards](http://keepachangelog.c
 * Initial release
 * Supports full site sync, Markdown import/export, and custom post type & status support
 
+  [Keep a Changelog standards]: http://keepachangelog.com/
+  [Semantic Versioning]: http://semver.org/
+  [Unreleased]: https://github.com/benbalter/wordpress-github-sync
+  [1.2]: https://github.com/benbalter/wordpress-github-sync/releases/tag/1.2
   [1.1.1]: https://github.com/benbalter/wordpress-github-sync/releases/tag/1.1.1
   [1.1.0]: https://github.com/benbalter/wordpress-github-sync/releases/tag/1.1.0
   [1.0.2]: https://github.com/benbalter/wordpress-github-sync/releases/tag/1.0.2
